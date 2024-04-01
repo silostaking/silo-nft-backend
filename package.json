@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "silo-nft-backend",
+  "description": "Silo NFTs backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silostaking/silo-nft-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silostaking/silo-nft-backend/issues"
+  },
+  "homepage": "https://github.com/silostaking/silo-nft-backend#readme"
+}

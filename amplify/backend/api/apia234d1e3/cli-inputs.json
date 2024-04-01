@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/api": {
+      "name": "/api",
+      "lambdaFunction": "silonftbackend5892e331",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

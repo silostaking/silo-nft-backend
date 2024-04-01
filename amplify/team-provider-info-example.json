@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "someString",
+      "UnauthRoleArn": "someString",
+      "AuthRoleArn": "someString",
+      "Region": "someString",
+      "DeploymentBucketName": "someString",
+      "UnauthRoleName": "someString",
+      "StackName": "someString",
+      "StackId": "someString",
+      "AmplifyAppId": "someString"
+    },
+    "categories": {
+      "function": {
+        "silonftbackend5892e331": {
+          "deploymentBucketName": "someString",
+          "s3Key": "someString",
+          "dbPassword": "someString",
+          "dbHost": "someString"
+        }
+      },
+      "api": {
+        "apia234d1e3": {}
+      }
+    }
+  }
+}

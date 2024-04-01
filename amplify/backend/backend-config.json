@@ -1,0 +1,59 @@
+{
+  "api": {
+    "apia234d1e3": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "silonftbackend5892e331"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "silonftbackend5892e331": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_silonftbackend5892e331_dbHost": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "silonftbackend5892e331"
+        }
+      ]
+    },
+    "AMPLIFY_function_silonftbackend5892e331_dbPassword": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "silonftbackend5892e331"
+        }
+      ]
+    },
+    "AMPLIFY_function_silonftbackend5892e331_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "silonftbackend5892e331"
+        }
+      ]
+    },
+    "AMPLIFY_function_silonftbackend5892e331_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "silonftbackend5892e331"
+        }
+      ]
+    }
+  }
+}
